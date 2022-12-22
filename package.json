@@ -5,10 +5,17 @@
   "main": "main.js",
   "author": "sakib",
   "license": "MIT",
+  "build": {
+    "appId": "Sakib"
+  },
+  
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder"
+    
   },
   "devDependencies": {
-    "electron": "^22.0.0"
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0"
   }
 }
